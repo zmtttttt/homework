@@ -1,104 +1,429 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-       *{margin: 0;padding: 0;}
-       .y1{
-           background-color: pink;
-           color:white;
-           line-height: 50px;
-           text-align: center;
-           }
-        .y2{
-            width: 500px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .y3{
-            line-height: 30px;
-        }
-        .y3:hover{
-           color:grey;
-           cursor: pointer; 
-        }
-        .y4{
-            width: 500px;
-        }
-        .y5:hover{
-            color:pink;
-           cursor: pointer;    
-        }
-        
-        
-        .h6{
-            line-height: 50px;
-        }
-        .h6:hover{
-            color:pink;
-           cursor: pointer;
-        }
-        li:hover {
-            color: deeppink;
-            cursor: pointer;
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Moonlight CSS Template</title>
 
-        }
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        li {
-            margin-top: 10px;
-        }
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/templatemo-main.css">
 
-        dt,
-        dd {
-            margin-top: 10px;
-        }
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
-        dt:hover {
-            color: deeppink;
-            cursor: pointer;
-        }
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
 
-        dd:hover {
-            color: deeppink;
-            cursor: pointer;
-        }
-        a{
-            color:palevioletred;
-            text-decoration: none;
-        }
-        .lianjie{
-            position: absolute;
-            left: 100px;
-            top: 100px;
-        }
-
-    </style>
-</head>
 <body>
-    <h3 class="y1">诗意生活</h3>
-    <div class="y2">
-        <h4 class="y3">除了生活还有诗和远方</h4>
-        <img class="y4" src="images/timg.jpg" alt="">
-        <p class="y5">人生至少有两次冲动，一次为了奋不顾身的爱情，一次为了说走就走的旅行。终于发现，我所拥有的，竟是如此繁华。一个人，才不会孤单。人生最好的旅行，就是你在一个陌生的地方，发现一种久违的感动。有一种旅行，不为跋涉千里的向往，只为漫无目的的闲逛，不为人 山人海的名胜，只为怡然自乐的街景。</p>
-        <h4 class="h6">关于旅行:</h4>
-        <ul>
-            <li>因为有梦，所以勇敢出发，选择出发，便只顾风雨兼程。</li>
-            <li>如果你不出去走走，你就会以为这就是世界。</li>
-            <li>当你下定决心准备出发时，最困难的时刻就已经过去了。那么，出发吧。</li>
-        </ul>
-        <dl>
-            <dt>尼采说:</dt>
-            <dd>对待生命你不妨大胆点，因为它终将离你远去</dd>
-        </dl>
-        <dl class="lianjie">
-           <li><a href="个人网站.html">个人网站</a></li> 
-           <li><a href="关于远大.html">关于远大</a></li> 
-           <li><a href="地板评测.html">地板评测</a></li>
-           <li><a href="家居医生.html">家居医生</a></li>
-        </dl>
+    
+    <div class="sequence">
+  
+      <div class="seq-preloader">
+        <svg width="39" height="16" viewBox="0 0 39 16" xmlns="http://www.w3.org/2000/svg" class="seq-preload-indicator"><g fill="#F96D38"><path class="seq-preload-circle seq-preload-circle-1" d="M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z"/><path class="seq-preload-circle seq-preload-circle-2" d="M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z"/><path class="seq-preload-circle seq-preload-circle-3" d="M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z"/></g></svg>
+      </div>
+      
     </div>
+    
+  
+        <nav>
+          <div class="logo">
+              <img src="img/logo.png" alt="">
+          </div>
+          <div class="mini-logo">
+              <img src="img/mini_logo.png" alt="">
+          </div>
+          <ul>
+            <li><a href="#1"><i class="fa fa-home"></i> <em>我的主页</em></a></li>
+            <li><a href="#2"><i class="fa fa-user"></i> <em>有关于我</em></a></li>
+            <li><a href="#3"><i class="fa fa-pencil"></i> <em>我的作品</em></a></li>
+            <li><a href="#4"><i class="fa fa-image"></i> <em>独家记忆</em></a></li>
+            <!-- <li><a href="#5"><i class="fa fa-envelope"></i> <em>我的作品</em></a></li> -->
+          </ul>
+        </nav>
+        
+        <div class="slides">
+          <div class="slide" id="1">
+            <div class="content first-content">
+              <div class="container-fluid">
+                  <div class="col-md-3">
+                      <div class="author-image"><img src="img/sun.jpg" alt=""></div>
+                  </div>
+                  <div class="col-md-9">
+                      <h2>钟睦陶在这里</h2>
+                      <p>这是我的个人网站,决定用它来记录点点滴滴!</p>
+                      <p>虽然暂时是作业性质,但是以后也会更新!希望大家能够喜欢~</p>
+                      <div class="main-btn"><a href="#2">了解更多</a></div>
+                      <!-- <div class="fb-btn"><a href="#/" target="_blank">Our FB Page</a></div> -->
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide" id="2">
+            <div class="content second-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div class="left-content">
+                            <h2>关于我</h2>
+                            <p>我的名字叫钟睦陶,大抵是爸爸姓钟,妈妈姓陶,希望一家人能够和和睦睦.热爱生活,热爱旅行,热爱美食,热爱朱乜!</p> 
+                            <p>年龄二十一岁,就读于北京大学1200多公里开外的武汉大学17公里开外的武汉工程大学.</p>
+                            <p>作为一名考研狗,现在最大的愿望就是考上理想的学校.然后脱离程序员的苦海,珍惜生命,远离脱发烦恼.</p>
+                            <p>作为网站主人呢,我想把这个网站更新到地球毁灭那天~</p>
+                          <div class="main-btn"><a href="#3">Read More</a></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-image">
+                          <img src="img/about_image.jpg" alt="">
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+          <div class="slide" id="3">
+            <div class="content third-content">
+                <div class="container-fluid">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="first-section">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="left-content">
+                                                <a href="诗意生活.html">诗意生活</a>
+                                                <a href="地板评测.html">地板评测</a>
+                                                <a href="个人网站.html">个人网站</a>
+                                                <a href="关于远大.html">关于远大</a>
+                                                <a href="家居医生.html">家居医生</a>
+                                                <div class="main-btn"><a href="#4">Continue Reading</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="right-image">
+                                                <img src="img/first_service.jpg" alt="first service">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="second-section">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="left-image">
+                                                <img src="img/second_service.jpg" alt="second service">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="right-content">
+                                                <a href="个人中心.html">个人中心</a>
+                                                <a href="小米登陆.html">小米登陆</a>
+                                                <a href="小米官网.html">小米官网</a>
+                                                <div class="main-btn"><a href="#4">Continue Reading</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+          <div class="slide" id="4">
+            <div class="content fourth-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn1.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>年三十走过的老街</h2>
+                                            <p>带你走过我的十六岁的记忆,那下次一起去看看你的十六岁吧!</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn1.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn2.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>2019年的第一餐</h2>
+                                            <p>亲手做的第一餐,听说大年初一在一起吃饭的话一整年都会在一起吃饭哦!</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn2.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn3.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>NoBiBi的冰淇淋</h2>
+                                            <p>好看大于好吃,当然重点不是冰淇凌!</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn3.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn4.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>夜晚的西津渡</h2>
+                                            <p>不够迷人却值得回忆,我们有一段记忆停留在此处!</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn4.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn5.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>十四不搭</h2>
+                                            <p>独特的养生火锅,在她的生日那天.</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn5.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn6.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>1988烤肉</h2>
+                                            <p>不起眼的大门,狭长的通道,老式的装修,好像一下把我们拉到了双门洞里!</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn6.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn7.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>星巴克</h2>
+                                            <p>在午后的慵懒时光里,发现口红新的使用方法~</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn7.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn8.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>宽巷子</h2>
+                                            <p>有一只最可爱的咕咕咕在看一笼子咕咕咕</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn8.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn9.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>天台日出</h2>
+                                            <p>伴随着太阳,最善解人意的乜原谅了最不解风情的猪!</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn9.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn10.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>冶春茶社</h2>
+                                            <p>期待并等待了很久的扬州早茶,却让人有一点点小失望.还是武汉的过早合胃口!</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn10.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn11.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>钟书阁</h2>
+                                            <p>本来约定好看书的两个人最后都睡着了,是我们的风格哈哈.期待下一次的卓尔之行!</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn11.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="img/zn12.png" data-lightbox="image-1"><div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>烟花三月</h2>
+                                            <p>昔我来矣,杨柳依依.我们的记忆,待续~</p>
+                                        </div>
+                                    </div></a>
+                                    <div class="image">
+                                        <img src="img/zn12.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+          <div class="slide" id="5">
+            <div class="content fifth-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <form id="contact" action="" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                  </fieldset>
+                                </div>
+                                 <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send Now</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- <div class="footer">
+          <div class="content">
+              <p>Copyright &copy; 2018 Your Company . <a href="#">Moonlight</a> by <a href="#" target="_parent">HTML5 Max</a></p>
+              <p>More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+          </div>
+        </div>  -->
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/datepicker.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+
+        
+
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 0;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
 </body>
 </html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            position: relative;
+        }
+        /* nav style start */
+        .nav-content{
+            width: 100%;
+            height: 100px;
+            position: relative;
+        }
+        .nav-package{
+            width: 1150px;
+            height: 100px;
+            position: absolute;
+            margin:auto;
+            left: 0;right: 0;bottom: 0;top: 0;
+            background:  url("https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png") no-repeat
+        }
+        /* .nav-link{
+            width:205px;
+            height: 100px;
+            margin-left: 375px;
+        } */
+        /* container style staet */
+        .container-content{
+            width: 100%;
+            height: 600px;
+            background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/553c5e503fc83138c76bd7c17c1434db.jpeg") no-repeat top center;
+            position:relative;
+        }
+        /* container style end */
+        /* longin page style start */
+        a{
+            text-decoration: none;
+        }
+.log-content{
+            float:right;
+            margin-top: 50px;
+            width:400px;
+            height: 560px;
+            text-align: center;
+            background:#fff;overflow:hidden;
+            position:absolute;
+            left: 960px;
+            top: -15px;
+            }
+        input{
+            width:336px;
+            padding:8px;
+            outline: none;
+            height:30px;
+            border:1px solid #e0e0e0}
+        .log-nav{
+            font-size: 24px;
+            margin-top:30px;
+            margin-bottom: 30px;
+            }
+        .log-nav span{
+            color:#333
+            }
+        .log-nav span.log-nav-number{
+            color:#f56600;
+            }
+        .log-signin-number{
+        margin-bottom: 15px;
+        }
+        .log-signin-password{
+            margin-bottom: 20px;
+            }
+        .log-signin-sure input{
+            width:352px;
+            height:50px;
+            background:#f56600;
+            color:white;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .log-service{
+            margin-top: -10px;
+            margin-bottom: 130px;
+            font-size: 14px;
+        }
+        .log-others{
+            width:352px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .log-others .log-others-style{
+            position:relative;
+        margin-bottom:15px;
+        }
+        .log-others-style .left,.right{
+            position:absolute;
+            display: block;
+            width:125px;
+            height:1px;
+            background:#999;top:50%
+            }
+        .right{
+            right:0
+            }
+        .log-icon{
+            overflow: hidden;
+            margin-bottom: 30px;
+            position: relative;
+            }
+        .log-icon span{
+            display: inline-block;
+            position:absolute;
+            margin:auto;
+            width:18px;
+            height:18px;
+            left:0;
+            right:0;
+            bottom:0;
+            top:0;
+            background:url("images/小标签.png") no-repeat ;
+        }
+        .log-icon a{
+            position: relative;
+            display: inline-block;
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+        }
+        .log-icon .qq{
+            background-position: -18px 0;
+            width:20px;
+            }
+        .log-icon .weibo{
+            background-position: -37px 0;
+            width:20px;
+            }
+        .log-icon .zhifubao{
+            background-position: -57px 0;
+            width:24px;
+        }
+        .log-icon .vx{
+            background-position: -84px 0;
+            width:24px;
+            }
+        .icon-qq{
+            left: -50px;
+            background: #0288D1;
+        }
+        .icon-weibo{
+            left: -20px;
+            background: #D32F2F;
+        }
+        .icon-zhifubao{
+            left: 10px;
+            background: #00AAEE;
+        }
+        .icon-vx{
+            left: 40px;
+            background: #00D20D;
+        }
+        .nav-line{
+            margin: 0 30px 0 30px;
+
+        }
+        .log-service-line{
+            margin: 0 70px 0 30px;
+        }
+        .log-imglink{
+            width: 730px;
+            height: 540px;
+            margin-left: 380px;
+        }
+        /* longin page style start */
+
+
+    /* bottom style start */
+    .bottom-content{
+        width: 100%;
+        height: 200px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .bottom-content li{
+        display: inline;
+    }
+    .bottom-a{
+        color:#999;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .bottom-police{
+        display: block;
+        padding: 10px;
+        color:#999;
+        font-size: 14px;
+    }
+    /* bottom style end */
+</style>
+</head>
+<body>
+<!-- nav start -->
+<div class="nav-content">
+    <div class="nav-package"></div>
+    <!-- <a href="https://www.mi.com/index.html">
+        <div class="nav-link"></div>
+    </a> -->
+</div>
+<!-- nav end -->
+<!-- container start -->
+<div class="container-content" >
+<!-- container start -->
+<!-- longin page start -->
+    <div class="log-content">
+        <form>
+            <p class="log-nav">
+                <a href=""><span class="log-nav-number"> 账号登录</span></a>
+                <span style="color:#e0e0e0" class="nav-line">|</span>
+                <a href=""><span class="log-nav-qr" style="color:rgb(122, 118, 118)">扫码登录</span></a>
+            </p>
+            <p class="log-signin-number">
+                <input type="text" placeholder="邮箱/手机号/小米账号"/>
+            </p>
+            <p class="log-signin-password">
+                <input type="password" placeholder="密码"/>
+            </p>
+            <p class="log-signin-sure">
+                <input type="submit" value="登录"/>
+            </p>
+        </form>
+        <p class="log-service">
+            <span style="color:#f56600" class="service-log">手机短信登录注册</span>
+            <span class="log-service-line"></span>
+            <span style="color:#999">立即注册</span>
+            <span style="color:#999">|</span>
+            <span style="color:#999">忘记密码?</span>
+        </p>
+        <div class="log-others" >
+            <p class="log-others-style" style="color:#999">
+                <span class="left" style="color:#999"></span>
+                其他方式登录
+                <span class="right" style="color:#999"></span>
+            </p>
+            <div class="log-icon">
+                <a href="#" class="icon-qq"><span class="qq"></span></a>
+                <a href="#" class="icon-weibo"><span  class="weibo"></span></a>
+                <a href="#" class="icon-zhifubao "><span class="zhifubao"></span></a>
+                <a href="#" class="icon-vx"><span class="vx"></span></a>
+            </div>
+        </div>
+    </div>
+    <a href="https://www.mi.com/mi9/">
+        <div class="log-imglink"></div>
+    </a>
+<!-- longin page end -->
+</div>
+<!-- container end -->
+<!-- bottom start -->
+<div class="bottom-content">
+    <ul bottom-label>
+        <li><a href="#" class="bottom-a">&nbsp简体&nbsp</a></li>
+        <li><a href="#" class="bottom-a">&nbsp|&nbsp</a></li>
+        <li><a href="#" class="bottom-a">&nbsp繁体&nbsp</a></li>
+        <li><a href="#" class="bottom-a">&nbsp|&nbsp</a></li>
+        <li><a href="#" class="bottom-a">&nbspEnglish&nbsp</a></li>
+        <li><a href="#" class="bottom-a">&nbsp|&nbsp</a></li>
+        <li><a href="#" class="bottom-a">&nbsp常见问题&nbsp</a></li>
+        <li><a href="#" class="bottom-a">&nbsp|&nbsp</a></li>
+        <li><a href="#" class="bottom-a">&nbsp隐私政策&nbsp</a></li>
+    </ul>
+    <p class="bottom-police">
+        小米公司版权所有-京ICP备10046444-
+        <img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png">
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134">京公网安备11010802020134号</a>
+        -京ICP证110507号
+    </p>
+</div>
+<!-- bottom end -->
+
+</body>
+</html>

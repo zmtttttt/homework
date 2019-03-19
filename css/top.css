@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+.top {
+    height: 70px;
+    background: #1ABEBF url('../images/logo(测评).png') no-repeat center center;
+}
+
+/* style:nav start */
+.nav {
+    background: #efefef;
+    height: 40px;
+}
+
+.main-nav {
+    width: 1000px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-nav>a {
+    text-decoration: none;
+    color: #7b7d7f;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.main-nav>a:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.gps {
+    display: block;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.user {
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.user>span {
+    font-size: 15px;
+    color: #F8BF73;
+}
+
+.user>span:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.user>i {
+    font-size: 20px;
+}
+
+.gps>span {
+    font-size: 15px;
+    color: #667572;
+}
+
+.gps>span:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.gps>i {
+    font-size: 18px;
+}
+
+/* style:nav end */
+/* style:container start */
+.container {
+    margin-top: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    width: 200px;
+    height: 730px;
+    border: 1px solid #EAEAEA;
+    float: left;
+    background-color: #f0f0f0;
+}
+
+iframe {
+    float: left;
+    width: 788px;
+    height: 730px;
+    margin-left: 10px;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tt {
+    font-size: 16px;
+    font-weight: bold;
+    color: #505050;
+    padding: 5px 0;
+}
+
+.container a:not(.mod) {
+    font-size: 14px;
+    color: #484848;
+}
+
+.container li:not(.tt) {
+    padding: 2px 0;
+}
+
+.container ul {
+    margin-left: 55px;
+}
+
+.left>a {
+    display: inline-block;
+    width: 202px;
+    line-height: 60px;
+    border: 1px solid #E1E1E1;
+    border-left: 4px solid #1AC0C0;
+    background-color: #EBEBEB;
+    box-sizing: border-box;
+    text-align: center;
+    color: #1AC0C0;
+}
+
+.container ul:not(.check) {
+    margin-top: 20px;
+}
+
+.container span {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url("images/open.png") no-repeat center center;
+    padding: 0 10px;
+    margin-left: -30px;
+}
+
+.data {
+    position: relative;
+}
+
+.foc a:hover {
+    color: #fea700;
+}
+
+.mod:hover {
+    color: #fea700;
+}
+
+/* style:container end */

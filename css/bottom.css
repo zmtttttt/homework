@@ -1,0 +1,128 @@
+.foot {
+    height: 220px;
+    background-color: #515151;
+    border: 1px solid #515151;
+    margin-top: 50px;
+}
+
+.inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.in-top {
+    height: 180px;
+    overflow: hidden;
+}
+
+.in-left {
+    width: 450px;
+    float: left;
+}
+
+.in-left>img {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.in-left>ul {
+    line-height: 30px;
+    font-size: 13px;
+    color: #d3d3d3;
+}
+
+.in-left .in-first {
+    color: white;
+}
+
+.lianjie {
+    width: 400px;
+    height: 84px;
+    margin-top: 34px;
+    margin-left: 100px;
+    float: left;
+}
+
+.lianjie a {
+    color: #d3d3d3;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.in-mid {
+    float: left;
+    width: 70px;
+    line-height: 30px;
+    margin-right: 30px;
+    margin-top: 45px;
+}
+
+.inm-mid {
+    display: block;
+}
+
+.in-mid>a {
+    text-decoration: none;
+}
+.in-mid-2 {
+    float: left;
+    width: 70px;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-top: 45px;
+}
+
+.inm-mid-2 {
+    display: block;
+}
+
+.in-mid-2>a {
+    text-decoration: none;
+}
+
+.in-right {
+    position: relative;
+}
+.wx{
+    position: absolute;
+    top: 50px;
+    right: 155px;
+}
+.tm{
+    position: absolute;
+    top: 79px;  
+    right: 158px;
+}
+.shop{
+    position: absolute;
+    top: 113px; 
+    right: 157px;
+}
+
+
+
+.in-bottom {
+    position: relative;
+}
+
+.in-bottom hr {
+    border: 1px solid #6f7273;
+}
+
+.in-bottom a {
+    color: #c5c6c5;
+    float: left;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.bl-ad {
+    color: #c5c6c5;
+    float: right;
+    font-size: 13px;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
