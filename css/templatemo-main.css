@@ -157,7 +157,7 @@ nav {
 	top: 10vh;
 	bottom: 10vh;
   	text-align: center;
-  	background: rgba(0, 0, 0, 0.5);
+  	background: rgba(240, 128, 128, 0.5);
   	position: fixed;
   	z-index: 100;
   	height: 80vh;
@@ -275,32 +275,32 @@ nav a:hover::before {
   left: 30%;
   top: 10%;
   bottom: 10%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(240, 128,128, 0.5);
 }
 .content::-webkit-scrollbar {
   width: 5px;
   height: 8px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(240, 128, 128, 0.5);
 }
 /* Add a thumb */
 .content::-webkit-scrollbar-thumb {
-    background: rgba(250, 250, 250, 0.5);
+    background: rgba(255, 182, 193, 0.5);
 }
 
 .slides .slide:nth-child(1) {
-  background-image: url(../img/first_bg.jpg);
+  background-image: url(../img/sakura.jpg);
 }
 .slides .slide:nth-child(2) {
-  background-image: url(../img/second_bg.jpg);
+  background-image: url(../img/zzz.jpg);
 }
 .slides .slide:nth-child(3) {
-  background-image: url(../img/third_bg.jpg);
+  background-image: url(../img/zzz.jpg);
 }
 .slides .slide:nth-child(4) {
   background-image: url(../img/fourth_bg.jpg);
  }
 .slides .slide:nth-child(5) {
-  background-image: url(../img/fifth_bg.jpg);
+  background-image: url(../img/sakura.jpg);
 }
 .slides .slide img {
   width: 100%;
@@ -440,6 +440,9 @@ nav a:hover::before {
 	line-height: 24px;
 	margin-bottom: 30px;
 }
+.second-content .p1{
+	margin-top: 120px;
+}
 
 .second-content a {
 	color: #fff;
@@ -562,7 +565,7 @@ nav a:hover::before {
 	text-align: left;
 	position: absolute;
 	color: #fff;
-	background-color: rgba(0,0,0,0.95);
+	background-color: rgba(255,127,80,0.5);
 	bottom: 0;
 	top: 0;
 	left: 0;
